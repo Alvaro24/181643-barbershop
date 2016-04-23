@@ -3,12 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Барбершоп «Бородинский» - Средства для ухода</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="main-header">
     <div class="container">
       <nav class="main-navigation">
         <ul>
+          <li>
+            <a href="index.html"><img src="img/small-logo.png" class="to-index" width="112" height="24" alt="На главную"></a>
+          </li>
           <li>
             <a href="#">Информация</a>
           </li>
@@ -59,6 +63,9 @@
           <div class="filter-title">
             <h2>Группы товаров</h2>
             <ul>
+              <li><label><input class="filter filter-title" id="shaving-accessories" type="radio">Бритвенные принадлежности</label></li>
+              <li><label><input class="filter filter-title" id="care-funds" type="radio" checked>Средства для ухода</label></li>
+              <li><label><input class="filter filter-title" id="accessories" type="radio">Аксессуары</label></li>
             </ul>
           </div>
           <button class="btn" type="submit">Показать</button>
@@ -68,73 +75,81 @@
         <div class="catalog-items">
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Набор для путешествий «Baxter of California»">
+              <a href="catalog-item.html">
+              <img src="img/catalog/item1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
+            </a>
             </figure>
             <div class="item-name">
               <p>Набор для путешествий<span class="title-brand">«Baxter of California»</span></p>
             </div>
             <div class="item-price">
               <span>2 900 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
 
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Увлажняющий кондиционер «Baxter of California»">
+              <img src="img/catalog/item2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
             </figure>
             <div class="item-name">
               <p>Увлажняющий кондиционер<span class="title-brand">«Baxter of California»</span></p>
             </div>
             <div class="item-price">
               <span>750 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
 
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Гель для волос «SAUVECITO»">
+              <img src="img/catalog/item3.jpg" width="220" height="165" alt="Гель для волос «SAUVECITO»">
             </figure>
             <div class="item-name">
               <p>Гель для волос<span class="title-brand">«SAUVECITO»</span></p>
             </div>
             <div class="item-price">
               <span>290 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
 
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Глина для укладки волос «American crew»">
+              <img src="img/catalog/item4.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»">
             </figure>
             <div class="item-name">
               <p>Глина для укладки волос<span class="title-brand">«American crew»</span></p>
             </div>
             <div class="item-price">
               <span>500 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
 
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Гель для волос «American crew»">
+              <img src="img/catalog/item5.jpg" width="220" height="165" alt="Гель для волос «American crew»">
             </figure>
             <div class="item-name">
               <p>Гель для волос<span class="title-brand">«American crew»</span></p>
             </div>
             <div class="item-price">
               <span>300 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
 
           <article class="catalog-item">
             <figure>
-              <img src="#" width="50px" height="50px" alt="Набор для бритья «Baxter of California»">
+              <img src="img/catalog/item6.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
             </figure>
             <div class="item-name">
               <p>Набор для бритья<span class="title-brand">«Baxter of California»</span></p>
             </div>
             <div class="item-price">
               <span>3 900 руб.</span>
+              <a class="btn btn-to-buy" href="#">Купить</a>
             </div>
           </article>
         </div>
@@ -153,6 +168,7 @@
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
         <a href="#">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
       </section>
       <section class="footer-social">
         <p>Давайте дружить!</p>
